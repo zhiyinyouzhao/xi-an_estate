@@ -34,7 +34,7 @@ python house_census.py
 最后的最后，我们来看看土豪们的选择。曲江，浐灞二分天下，曲江是老的富人区，浐灞新兴势力。要想房子卖得贵，最重要的是什么？是水，有水有money。  
 **个人小结：**     
 1.在采集数据时，受限于网络环境以及网站的防范机制，有时候爬的数据不全，所以要核实下，多运行几次程序，确定采集完全，方可进行后续分析。  
-2.数据可视化工具使用第三方工具][ECharts](http://echarts.baidu.com/)和[Highcharts](https://www.hcharts.cn/)。  
+2.数据可视化工具使用第三方工具[ECharts](http://echarts.baidu.com/)和[Highcharts](https://www.hcharts.cn/)。  
 3.store目录下是采集到的各个区域数据，loupan.csv是合并后的全市数据，result_images目录存放的是上传的分析图。  
 4.写入和读取csv文件，中文乱码依旧是需要小心的地方。  
 5.解析网页使用的是[BeautifulSoup](http://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/),数据分析使用的是[Pandas](http://pandas.pydata.org/)。  
