@@ -8,7 +8,7 @@ Date：April 17,2017
 该项目主要分析了西安房地产市场，数据来源于链家网，数据更新截止于2017年4月17日。  
 安装说明：  
 cd /opt  
-git clone git@git@github.com:zhiyinyouzhao/xi-an_estate.git  
+git clone git@github.com:zhiyinyouzhao/xi-an_estate.git  
 cd XA_house  
 python house_census.py  
 **结果分析：**  
