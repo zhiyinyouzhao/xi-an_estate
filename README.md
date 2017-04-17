@@ -38,3 +38,4 @@ python house_census.py
 3.store目录下是采集到的各个区域数据，loupan.csv是合并后的全市数据，result_images目录存放的是上传的分析图。  
 4.写入和读取csv文件，中文乱码依旧是需要小心的地方。  
 5.解析网页使用的是[BeautifulSoup](http://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/),数据分析使用的是[Pandas](http://pandas.pydata.org/)。  
+6.csv文件价格一栏，没有标价的填为0，方便计算,别墅价格有的使用万/套单位，自己手工换算了下计算。  
